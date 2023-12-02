@@ -1,6 +1,7 @@
 import re
 
 file_path = r'dummy.eml'
+
 with open(file_path, 'r') as file:
     file_lines = file.readlines()
 
@@ -18,5 +19,4 @@ for ip in ip_addresses:
 output_file_path = 'ipaddr_out.txt'
 with open(output_file_path, 'w') as out_file:
     for ip in ip_addresses:
-        out_file.write(ip + '\n')
-        
+        out_file.write(str(ip) + '\n')
