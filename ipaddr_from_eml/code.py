@@ -16,7 +16,7 @@ for line in file_lines:
 for ip in ip_addresses:
     print(ip)
 
-output_file_path = 'ipaddr_out.txt'
+output_file_path = r'ipaddr_out.txt'
 with open(output_file_path, 'w') as out_file:
     for ip in ip_addresses:
         out_file.write(str(ip) + '\n')
