@@ -1,0 +1,10 @@
+From: sender@example.com
+To: recipient@example.com
+Subject: Test Email
+
+Hello,
+
+This is a test email with some dummy IP addresses: 192.168.1.1, 10.0.0.1, and 172.16.0.1.
+
+Best regards,
+Sender
